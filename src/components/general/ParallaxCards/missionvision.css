@@ -1,0 +1,36 @@
+.mi-vi-wrapper {
+    position: relative;
+    display: flex;
+    /* padding: 32px;
+    height: 700px;
+    width: 100%; */
+    user-select: none;
+}
+
+.mi-wrapper {
+    padding: 5vw;
+}
+
+.vi-wrapper {
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 13.5vh;
+    /* top: 150px;
+    left: 950px; */
+}
+
+@media(max-width: 1400px){
+    .mi-vi-wrapper {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        user-select: none;
+    }
+    .vi-wrapper {
+        position: unset;
+        margin-left: 0;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        /* width: 90vw; */
+    }
+}

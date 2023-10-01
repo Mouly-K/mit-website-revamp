@@ -1,0 +1,89 @@
+.anouncementContainer {
+  width: 100vw;
+  padding: 2%;
+}
+.recentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.announcementCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2% 0 ;
+  
+}
+.announcementTypeContainer {
+  width: 100%;
+  @media (max-width: 900px) {
+    padding: 1% 0 0 2%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.headText {
+  font-size: medium;
+  font-weight: 600;
+  color: var(--darkGrey);
+}
+.verticalTitleBar {
+  height: 5vh;
+  width: 10px;
+  background-color: var(--purple);
+  margin-right: 2%;
+  @media (max-width: 800px) {
+    height: 3vh;
+  }
+}
+.recentTextContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.announcementType {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  font-size: large;
+  font-weight: 600;
+  justify-content: space-between;
+  width: 60%;
+  color: var(--primary-color);
+  @media (max-width:900px){
+  }
+  /* border: red solid; */
+}
+.announcementType >.active {
+  /* border: 2px solid;   */
+  background-color: var(--secondary-color);
+  padding: 1%;
+  border-radius: 10px;
+  color: var(--white);
+  cursor: pointer;
+  @media (max-width:900px) {
+    font-size: medium;
+    padding: 3%;
+  }
+}
+.announcementType > .passive{
+  border:1px solid var(--secondary-color);
+  padding:1%;
+  border-radius: 10px;
+  background-color: var(--white);
+  cursor: pointer;
+  color: var(--secondary-color);
+  @media (max-width:900px) {
+    font-size: medium;
+    padding: 3%;
+  }
+}
+.announcementType > .passive:hover{
+  background-color: var(--secondary-color);
+  color: var(--white);
+}

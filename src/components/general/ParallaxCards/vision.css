@@ -1,0 +1,43 @@
+.vision-main-card {
+    width: 450px;
+    padding: 20px;
+    background-color: #545ce4;;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* .vision-main-card{
+    transform: translateY(-100px);
+} */
+.vheading {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0.2em;
+    color: aliceblue;
+    @media (max-width: 910px) {
+        font-size: 48px;
+    }
+}
+
+.vision-main-card > .body {
+    padding: 10px;
+    color: aliceblue;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+@media(max-width: 1400px){
+    .vision-main-card {
+        width: 90vw;
+        padding: 20px;
+        background-color: #545ce4;;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-left: 5vw;
+    }
+}
