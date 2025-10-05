@@ -1,0 +1,126 @@
+.supervisor-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  min-width: 600px;
+  color: var(--primary-color);
+}
+
+.supervisor-card-container > .details-container {
+  display: flex;
+}
+
+.supervisor-card-container > .details-container > .image-container {
+  width: 100px;
+  height: 100px;
+}
+
+.supervisor-card-container > .details-container > .image-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.supervisor-card-container > .details-container > .subdetails-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  padding-left: 10px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.supervisor-card-container
+  > .details-container
+  > .subdetails-container
+  > .name-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.supervisor-card-container
+  > .details-container
+  > .subdetails-container
+  > .name-container
+  > p {
+  background-color: #f0f0f0;
+  color: var(--primary-color);
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.supervisor-card-container > .details-container > .subdetails-container > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 15px;
+  padding-left: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.supervisor-card-container
+  > .details-container
+  > .subdetails-container
+  > span
+  > p {
+  font-size: 12px;
+}
+
+.supervisor-card-container > .working-domain-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 20px 0px 10px 0px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.supervisor-card-container > .working-domain-container > h4 {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.supervisor-card-container > .working-domain-container > p {
+  font-size: 13px;
+}
+
+.supervisor-card-container > .research-scholars-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.supervisor-card-container > .research-scholars-container > h4 {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.supervisor-card-container > .research-scholars-container > table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+}
+
+.supervisor-card-container > .research-scholars-container > table td,th {
+  padding: 0px 10px;
+  height: 32px;
+}
+
+.supervisor-card-container > .research-scholars-container > table > thead {
+  text-align: left;
+}
+
+.supervisor-card-container > .research-scholars-container > table > thead > tr {
+  background-color: #f5f5f5;
+  font-weight: 500;
+  color: var(--primary-color);
+}

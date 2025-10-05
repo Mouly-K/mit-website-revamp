@@ -1,0 +1,17 @@
+.aero-home-container {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.aero-home-container .page-content {
+    flex: 6;
+}
+
+.aero-home-container .sidebar {
+    flex: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid var(--secondary-color) 2px;  */
+}

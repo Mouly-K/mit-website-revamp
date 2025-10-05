@@ -1,0 +1,68 @@
+.staff-page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.staff-page-container .content {
+    flex: 15;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 3%; */
+    margin-left: 330px;
+    padding: 0px 40px;
+    margin-top: 60px;
+
+    @media screen and (max-width: 800px) {
+        margin: 0px 3%;
+    }
+
+}
+
+.staff-page-container .content .content-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 1.5%;
+}
+
+.staff-page-container .content-title-wrapper .title-card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* margin-left: 330px; */
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.staff-page-container .content-title-wrapper .title-card .title-content {
+    margin-left: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.staff-page-container .content-title-wrapper {
+    display: flex;
+    flex-direction: column; 
+}
+
+.staff-page-container .title-content .staff-details .staff-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+.staff-page-container .title-content .staff-details .designation {
+    font-size: 14px;
+}
+
+.staff-page-container .home-button {
+    cursor: pointer;
+    user-select: none;
+}

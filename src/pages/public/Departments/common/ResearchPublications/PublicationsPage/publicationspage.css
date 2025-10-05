@@ -1,0 +1,21 @@
+.publications-container .paginator {
+    user-select: none;
+}
+
+.publications-container .component-container {
+    margin: 0px 150px;
+}
+
+.publications-container .pub-title {
+    font-size: 26px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    user-select: none;
+}
+
+.publications-container .paginator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}

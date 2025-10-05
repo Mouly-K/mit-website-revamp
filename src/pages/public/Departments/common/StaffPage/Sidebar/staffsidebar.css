@@ -1,0 +1,57 @@
+.staff-side-bar {
+  position: absolute;
+  flex: 4;
+  height: 100%;
+  width: 330px;
+  /* border: solid black 1px; */
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.staff-side-bar-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+  gap: 15px;
+}
+
+.staff-side-bar-item:hover {
+  color: white;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+.staff-side-bar .staff-side-bar-item .item-icon {
+  aspect-ratio: 1;
+  width: 25px;
+}
+
+.staff-side-bar .logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  height: 300px;
+  background-color: var(--secondary-color);
+}
+.staff-side-bar .logo-container {
+  height: 40%;
+  width: 40%;
+}
+
+.staff-side-bar .university-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bolder;
+    color: white;
+}

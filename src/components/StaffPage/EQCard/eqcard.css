@@ -1,0 +1,64 @@
+.eqcard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 330px;
+}
+
+.eqcard-container .left-column {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.eqcard-container .right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.eqcard-container .right-column .qualification {
+  font-weight: 650;
+}
+
+.eqcard-container .right-column .university {
+  color: var(--darkGrey);
+}
+
+.eqcard-container .degree {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 15px;
+  color: var(--secondary-color)
+}
+
+.eqcard-container .line-wrapper,
+.eqcard-container .course,
+.eqcard-container .university {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 7px 0px;
+}
+
+.eqcard-container .university {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.eqcard-container .course {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.eqcard-container .line {
+  width: 80%;
+  height: 1px;
+  border: solid black 1px;
+}

@@ -1,0 +1,99 @@
+.page-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.page-content .image-name-wrapper {
+    /* flex: 1; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-content .designation-contact-wrapper, .page-content .educational-inPersonal-container, .page-content .aoi-container {
+    padding: 20px 0px;
+}
+
+.page-content .designation-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.page-content .image-name-wrapper .name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.page-content .designation-contact-wrapper .usertitle, .page-content .aoi-title, .page-content .edu-title {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.page-content .designation-contact-wrapper .dept, .page-content .designation-contact-wrapper .uni, .page-content .aoi-item {
+    font-size: 14px;
+    color: var(--darkGrey);
+}
+
+.page-content .designation-contact-wrapper .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.page-content .email-container .email-id, .page-content .phno-container .phone-number {
+    font-size: 14px;
+}
+
+.page-content .designation-contact-wrapper .contact .phno-container, .page-content .designation-contact-wrapper .contact .email-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.page-content .aoi-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page-content .image-name-wrapper .image .img-item {
+    border-radius: 10px;
+}
+
+.page-content .staff-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 8px;
+    gap: 20px;
+}
+
+.page-content .educational-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.page-content .aoi-container .aoi-content, .page-content .educational-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.page-content .educational-body .program {
+    font-weight: 800;
+}
+
+.page-content .educational-body .course, .page-content .educational-body .uni {
+    margin-left: 10px;
+}

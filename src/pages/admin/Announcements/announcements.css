@@ -1,0 +1,28 @@
+.announcements-app-container {
+  display: flex;
+  flex: 1;
+  flex-basis: 0;
+  /* height: 100vh; */
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--body-color);
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* padding-bottom: 500px; */
+}
+
+.announcements-app-container .view-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  height: fit-content;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

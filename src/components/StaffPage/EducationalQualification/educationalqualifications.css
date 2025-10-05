@@ -1,0 +1,6 @@
+.eqwrapper {
+    padding: 1px 0px;
+    /* border: black solid 2px; */
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,77 @@
+.student-entry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: solid black 2px; */
+}
+
+.student-entry-container .entry-fields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: solid red 2px; */
+  gap: 30px;
+}
+
+.entry-fields .cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* border: solid black 2px; */
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.student-entry-container .cell .left-half,
+.cell .right-half {
+  flex: 1;
+}
+
+.student-entry-container .cell .left-half {
+  text-align: right;
+  flex: 0.7;
+}
+
+.student-entry-container .dropdown-wrapper {
+  height: 30px;
+  border: black solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+}
+.student-entry-container .dropdown-container {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  right: 4px;
+}
+.student-entry-container .dropdown-wrapper .down-arrow {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.student-entry-container .submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: var(--yellow);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}

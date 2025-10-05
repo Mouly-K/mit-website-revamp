@@ -1,0 +1,40 @@
+.announcements-menu-container {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    gap: 15px;
+}
+
+.announcements-menu-container > .field-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* border: black solid 2px; */
+    width: 520px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.field-wrapper > .field-name {
+    text-align: right;
+    /* background-color: red; */
+    width: 50%;
+    /* padding-right: 20px; */
+}
+
+.field-wrapper > .field-name, .field-wrapper > .field-item {
+    width: 50%;
+}
+
+.radio-form {
+    /* border: yellow solid 2px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_sed {
+    background-color: red;
+}
